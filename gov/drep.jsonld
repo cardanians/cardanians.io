@@ -51,63 +51,33 @@
       }
     }
   },
-  "authors": [],
-  "hashAlgorithm": {
-    "@value": "blake2b-256"
-  },
+  "hashAlgorithm": "blake2b-256",
   "body": {
-    "doNotList": false,
-    "givenName": {
-      "@value": "Cardanians"
-    },
-    "motivations": {
-      "@value": "Active community participation is essential for effective on-chain governance. As Cardanians, we are committed to representing our dedicated supporters in governance matters. Our trust is founded on open communication and our extensive experience within the Cardano ecosystem since 2017. With the continued support of ADA holders, we aim to contribute to Cardano's promising future. We believe that DReps should act as a counterbalance to the founding entities while also serving as effective communicators who can clearly articulate their positions."
-    },
-    "objectives": {
-      "@value": "Our decision-making priorities will focus on maintaining high decentralization, transparency, fairness, and a sustainable budget. We aim to support governance actions that foster innovation, increase adoption, and aid builders. Each proposal will be carefully evaluated, but we may abstain if the pros and cons are evenly balanced. We will announce our voting intentions well in advance, allowing delegators to redelegate their stake if they disagree with our stance. We will always provide clear rationales for our votes. Ultimately, ADA holders must have the final say."
-    },
-    "paymentAddress": {
-      "@value": "addr1qylhdg5m6eep4nr44m82dd6hah85rk7t6hyv7ls5xx6v7qlrx5x8dkgfmt4vj4zsxqq80uplvawaa6ypj5hyp9wcdyxsh485p9"
-    },
-    "qualifications": {
-      "@value": "We are pool operators, builders, educators, IT experts, and, above all, active and visible members of the community. Our diverse team brings expertise in networking, security, operating systems, programming, finance, marketing, social media, education, and community building. This breadth of knowledge allows us to make objective decisions that benefit the Cardano ecosystem as a whole. Decentralization demands strong representatives, and we are dedicated to fulfilling that role."
-    },
+    "givenName": "Cardanians",
+    "motivations": "Active community participation is essential for effective on-chain governance. As Cardanians, we are committed to representing our dedicated supporters in governance matters. Our trust is founded on open communication and our extensive experience within the Cardano ecosystem since 2017. With the continued support of ADA holders, we aim to contribute to Cardano's promising future. We believe that DReps should act as a counterbalance to the founding entities while also serving as effective communicators who can clearly articulate their positions.",
+    "objectives": "Our decision-making priorities will focus on maintaining high decentralization, transparency, fairness, and a sustainable budget. We aim to support governance actions that foster innovation, increase adoption, and aid builders. Each proposal will be carefully evaluated, but we may abstain if the pros and cons are evenly balanced. We will announce our voting intentions well in advance, allowing delegators to redelegate their stake if they disagree with our stance. We will always provide clear rationales for our votes. Ultimately, ADA holders must have the final say.",
+    "paymentAddress": "addr1qylhdg5m6eep4nr44m82dd6hah85rk7t6hyv7ls5xx6v7qlrx5x8dkgfmt4vj4zsxqq80uplvawaa6ypj5hyp9wcdyxsh485p9",
+    "qualifications": "We are pool operators, builders, educators, IT experts, and, above all, active and visible members of the community. Our diverse team brings expertise in networking, security, operating systems, programming, finance, marketing, social media, education, and community building. This breadth of knowledge allows us to make objective decisions that benefit the Cardano ecosystem as a whole. Decentralization demands strong representatives, and we are dedicated to fulfilling that role.",
     "references": [
       {
         "@type": "Link",
-        "label": {
-          "@value": "Website"
-        },
-        "uri": {
-          "@value": "https://cardanians.io/"
-        }
+        "label": "Website",
+        "uri": "https://cardanians.io/"
       },
       {
         "@type": "Link",
-        "label": {
-          "@value": "X"
-        },
-        "uri": {
-          "@value": "https://x.com/Cardanians_io"
-        }
+        "label": "X",
+        "uri": "https://x.com/Cardanians_io"
       },
       {
         "@type": "Identity",
-        "label": {
-          "@value": "Website"
-        },
-        "uri": {
-          "@value": "https://cardanians.io/"
-        }
+        "label": "Website",
+        "uri": "https://cardanians.io/"
       },
       {
         "@type": "Identity",
-        "label": {
-          "@value": "X"
-        },
-        "uri": {
-          "@value": "https://x.com/Cardanians_io"
-        }
+        "label": "X",
+        "uri": "https://x.com/Cardanians_io"
       }
     ]
   }
