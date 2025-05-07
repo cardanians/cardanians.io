@@ -1,0 +1,97 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": {
+          "@id": "CIP119:image",
+          "@context": {
+            "ImageObject": "https://schema.org/ImageObject",
+            "contentUrl": "CIP119:contentUrl",
+            "sha256": "CIP119:sha256"
+          }
+        },
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "givenName": "Cardanians",
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": "https://raw.githubusercontent.com/cardanians/cardanians.io/refs/heads/master/gov/logo.png?v",
+      "sha256": "c5fa1f58e5ce457dbc5d62cf64f95967189e997bd638f5c1c2666f9555fcbebe"
+    },
+    "motivations": "Active community participation is essential for effective on-chain governance. As Cardanians, we are committed to representing our dedicated supporters in governance matters. Our trust is founded on open communication and our extensive experience within the Cardano ecosystem since 2017. With the continued support of ADA holders, we aim to contribute to Cardano's promising future. We believe that DReps should act as a counterbalance to the founding entities while also serving as effective communicators who can clearly articulate their positions.",
+    "objectives": "Our decision-making priorities will focus on maintaining high decentralization, transparency, fairness, and a sustainable budget. We aim to support governance actions that foster innovation, increase adoption, and aid builders. Each proposal will be carefully evaluated, but we may abstain if the pros and cons are evenly balanced. We will announce our voting intentions well in advance, allowing delegators to redelegate their stake if they disagree with our stance. We will always provide clear rationales for our votes. Ultimately, ADA holders must have the final say.",
+    "paymentAddress": "addr1qylhdg5m6eep4nr44m82dd6hah85rk7t6hyv7ls5xx6v7qlrx5x8dkgfmt4vj4zsxqq80uplvawaa6ypj5hyp9wcdyxsh485p9",
+    "qualifications": "We are pool operators, builders, educators, IT experts, and, above all, active and visible members of the community. Our diverse team brings expertise in networking, security, operating systems, programming, finance, marketing, social media, education, and community building. This breadth of knowledge allows us to make objective decisions that benefit the Cardano ecosystem as a whole. Decentralization demands strong representatives, and we are dedicated to fulfilling that role.",
+    "references": [
+      {
+        "@type": "Link",
+        "label": "Website",
+        "uri": "https://cardanians.io/"
+      },
+      {
+        "@type": "Link",
+        "label": "X",
+        "uri": "https://x.com/Cardanians_io"
+      },
+      {
+        "@type": "Identity",
+        "label": "Website",
+        "uri": "https://cardanians.io/"
+      },
+      {
+        "@type": "Identity",
+        "label": "X",
+        "uri": "https://x.com/Cardanians_io"
+      }
+    ]
+  }
+}
