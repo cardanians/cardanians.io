@@ -64,7 +64,7 @@
     "givenName": "Cardanians",
     "image": {
       "@type": "ImageObject",
-      "contentUrl": "https://raw.githubusercontent.com/cardanians/cardanians.io/refs/heads/master/gov/logo.png",
+      "contentUrl": "https://raw.githubusercontent.com/cardanians/cardanians.io/refs/heads/master/gov/logo.png?v",
       "sha256": "c5fa1f58e5ce457dbc5d62cf64f95967189e997bd638f5c1c2666f9555fcbebe"
     },
     "motivations": "Active community participation is essential for effective on-chain governance. As Cardanians, we are committed to representing our dedicated supporters in governance matters. Our trust is founded on open communication and our extensive experience within the Cardano ecosystem since 2017. With the continued support of ADA holders, we aim to contribute to Cardano's promising future. We believe that DReps should act as a counterbalance to the founding entities while also serving as effective communicators who can clearly articulate their positions.",
